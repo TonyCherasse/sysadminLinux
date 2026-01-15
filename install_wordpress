@@ -21,7 +21,7 @@ cat > /etc/apache2/sites-available/wordpress.conf << EOF
 <VirtualHost *:80>
         ServerName wordpress.tony.lan
         DocumentRoot  /var/www/wordpress
-	<Diroctory /var/www/wordpress>
+	<Directory /var/www/wordpress>
 		AllowOverride All
 	</Directory>
 </VirtualHost>
